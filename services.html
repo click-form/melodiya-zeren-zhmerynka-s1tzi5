@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Меню та асортимент — Кав’ярня «Мелодія зерен»</title>
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,600;0,700;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                <span class="logo-icon">☕</span>
+                <span class="logo-text">Мелодія зерен</span>
+            </a>
+            <nav class="main-nav" id="mainNav">
+                <ul class="nav-list">
+                    <li><a href="index.html" class="nav-link" data-i18n="nav_home">Головна</a></li>
+                    <li><a href="about.html" class="nav-link" data-i18n="nav_about">Про нас</a></li>
+                    <li><a href="services.html" class="nav-link active" data-i18n="nav_services">Меню</a></li>
+                    <li><a href="gallery.html" class="nav-link" data-i18n="nav_gallery">Галерея</a></li>
+                    <li><a href="contacts.html" class="nav-link" data-i18n="nav_contacts">Контакти</a></li>
+                </ul>
+            </nav>
+            <div class="header-actions">
+                <div class="lang-switcher">
+                    <button class="lang-btn active" data-lang="uk">UA</button>
+                    <button class="lang-btn" data-lang="ru">RU</button>
+                    <button class="lang-btn" data-lang="en">EN</button>
+                </div>
+                <button class="menu-toggle" id="menuToggle" aria-label="Відчинити меню">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <div class="container">
+                <h1 data-i18n="menu_page_title">Наше меню та асортимент</h1>
+                <p data-i18n="menu_page_subtitle">Кавові напої, домашня випічка власного виробництва та ситні перекуси</p>
+            </div>
+        </section>
+
+        <section class="menu-section section-padding">
+            <div class="container">
+                <div class="menu-grid">
+                    <div class="menu-category-card">
+                        <div class="menu-category-icon">☕</div>
+                        <h3 data-i18n="cat_coffee_title">Кавові напої</h3>
+                        <p data-i18n="cat_coffee_desc">Приготовані професійними бариста з ретельно відібраних зерен найвищої якості. Класичні кавові позиції та авторські сезонні напої.</p>
+                    </div>
+
+                    <div class="menu-category-card">
+                        <div class="menu-category-icon">🥐</div>
+                        <h3 data-i18n="cat_bakery_title">Випічка та десерти</h3>
+                        <p data-i18n="cat_bakery_desc">Свіжа домашня випічка власного виробництва: ніжні тістечка, апетитні круасани з різноманітними начинками (включно з лососем та салямі), смачні чізкейки, шу, мусові сердечка, макаруни, кейк-попси та фісташковий наполеон.</p>
+                    </div>
+
+                    <div class="menu-category-card">
+                        <div class="menu-category-icon">🍔</div>
+                        <h3 data-i18n="cat_snacks_title">Ситні перекуси</h3>
+                        <p data-i18n="cat_snacks_desc">Ситні паніні, соковиті гамбургери, хрусткі багети з курочкою, стейком чи беконом, а також апетитні чіабати.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-content">
+            <div class="footer-col">
+                <a href="index.html" class="logo footer-logo">
+                    <span class="logo-icon">☕</span>
+                    <span class="logo-text">Мелодія зерен</span>
+                </a>
+                <p data-i18n="footer_desc">Затишна сучасна кав’ярня у місті Жмеринка.</p>
+            </div>
+            <div class="footer-col">
+                <h4 data-i18n="footer_nav_title">Навігація</h4>
+                <ul class="footer-links">
+                    <li><a href="index.html" data-i18n="nav_home">Головна</a></li>
+                    <li><a href="about.html" data-i18n="nav_about">Про нас</a></li>
+                    <li><a href="services.html" data-i18n="nav_services">Меню</a></li>
+                    <li><a href="gallery.html" data-i18n="nav_gallery">Галерея</a></li>
+                    <li><a href="contacts.html" data-i18n="nav_contacts">Контакти</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4 data-i18n="footer_contacts_title">Контакти</h4>
+                <p data-i18n="footer_address">вул. Софії Тобілевич, 4а, Жмеринка, Вінницька область</p>
+                <p data-i18n="footer_hours">Графік: Пн-Нд: 08:00 - 20:00</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; Кав’ярня «Мелодія зерен». <span data-i18n="footer_rights">Всі права захищено.</span></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/script.js"></script>
+</body>
+</html>
