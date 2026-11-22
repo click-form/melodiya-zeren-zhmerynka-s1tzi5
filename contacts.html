@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакти — Кав’ярня «Мелодія зерен» у Жмеринці</title>
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,600;0,700;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                <span class="logo-icon">☕</span>
+                <span class="logo-text">Мелодія зерен</span>
+            </a>
+            <nav class="main-nav" id="mainNav">
+                <ul class="nav-list">
+                    <li><a href="index.html" class="nav-link" data-i18n="nav_home">Головна</a></li>
+                    <li><a href="about.html" class="nav-link" data-i18n="nav_about">Про нас</a></li>
+                    <li><a href="services.html" class="nav-link" data-i18n="nav_services">Меню</a></li>
+                    <li><a href="gallery.html" class="nav-link" data-i18n="nav_gallery">Галерея</a></li>
+                    <li><a href="contacts.html" class="nav-link active" data-i18n="nav_contacts">Контакти</a></li>
+                </ul>
+            </nav>
+            <div class="header-actions">
+                <div class="lang-switcher">
+                    <button class="lang-btn active" data-lang="uk">UA</button>
+                    <button class="lang-btn" data-lang="ru">RU</button>
+                    <button class="lang-btn" data-lang="en">EN</button>
+                </div>
+                <button class="menu-toggle" id="menuToggle" aria-label="Відчинити меню">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <div class="container">
+                <h1 data-i18n="contacts_page_title">Контакти та розташування</h1>
+                <p data-i18n="contacts_page_subtitle">Чекаємо на вас щодня у місті Жмеринка</p>
+            </div>
+        </section>
+
+        <section class="contacts-section section-padding">
+            <div class="container">
+                <div class="contacts-grid">
+                    <div class="contacts-info-card">
+                        <h2 data-i18n="contacts_info_title">Інформація про заведення</h2>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">📍</div>
+                            <div>
+                                <h4 data-i18n="lbl_address">Адреса</h4>
+                                <p data-i18n="val_address">вул. Софії Тобілевич, 4а, Жмеринка, Вінницька область, Україна (поруч із ліцеєм №5 та привокзальним ринком)</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon">🕒</div>
+                            <div>
+                                <h4 data-i18n="lbl_hours">Графік роботи</h4>
+                                <p data-i18n="val_hours">Пн - Нд: 08:00 - 20:00</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-action">
+                            <a href="https://www.google.com/maps/search/?api=1&query=%D0%B2%D1%83%D0%BB.+%D0%A1%D0%BE%D1%84%D1%96%D1%97+%D0%A2%D0%BE%D0%B1%D1%96%D0%BB%D0%B5%D0%B2%D0%B8%D1%87%2C+4%D0%B0%2C+%D0%96%D0%BC%D0%B5%D1%80%D0%B8%D0%BD%D0%BA%D0%B0" target="_blank" rel="noopener noreferrer" class="btn btn-primary" data-i18n="btn_map">Відкрити у Google Maps</a>
+                        </div>
+                    </div>
+
+                    <div class="contacts-map-card">
+                        <div class="map-placeholder">
+                            <span class="map-icon">🗺️</span>
+                            <h3 data-i18n="map_title">Жмеринка, вул. Софії Тобілевич, 4а</h3>
+                            <p data-i18n="map_desc">Неподалік від привокзального ринку та ліцею №5</p>
+                            <a href="https://www.google.com/maps/search/?api=1&query=%D0%B2%D1%83%D0%BB.+%D0%A1%D0%BE%D1%84%D1%96%D1%97+%D0%A2%D0%BE%D0%B1%D1%96%D0%BB%D0%B5%D0%B2%D0%B8%D1%87%2C+4%D0%B0%2C+%D0%96%D0%BC%D0%B5%D1%80%D0%B8%D0%BD%D0%BA%D0%B0" target="_blank" rel="noopener noreferrer" class="btn btn-secondary" data-i18n="map_link_btn">Подивитися на карті</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-content">
+            <div class="footer-col">
+                <a href="index.html" class="logo footer-logo">
+                    <span class="logo-icon">☕</span>
+                    <span class="logo-text">Мелодія зерен</span>
+                </a>
+                <p data-i18n="footer_desc">Затишна сучасна кав’ярня у місті Жмеринка.</p>
+            </div>
+            <div class="footer-col">
+                <h4 data-i18n="footer_nav_title">Навігація</h4>
+                <ul class="footer-links">
+                    <li><a href="index.html" data-i18n="nav_home">Головна</a></li>
+                    <li><a href="about.html" data-i18n="nav_about">Про нас</a></li>
+                    <li><a href="services.html" data-i18n="nav_services">Меню</a></li>
+                    <li><a href="gallery.html" data-i18n="nav_gallery">Галерея</a></li>
+                    <li><a href="contacts.html" data-i18n="nav_contacts">Контакти</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4 data-i18n="footer_contacts_title">Контакти</h4>
+                <p data-i18n="footer_address">вул. Софії Тобілевич, 4а, Жмеринка, Вінницька область</p>
+                <p data-i18n="footer_hours">Графік: Пн-Нд: 08:00 - 20:00</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; Кав’ярня «Мелодія зерен». <span data-i18n="footer_rights">Всі права захищено.</span></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/script.js"></script>
+</body>
+</html>
