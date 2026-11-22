@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Кав’ярня «Мелодія зерен» у Жмеринці</title>
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,600;0,700;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                <span class="logo-icon">☕</span>
+                <span class="logo-text">Мелодія зерен</span>
+            </a>
+            <nav class="main-nav" id="mainNav">
+                <ul class="nav-list">
+                    <li><a href="index.html" class="nav-link active" data-i18n="nav_home">Головна</a></li>
+                    <li><a href="about.html" class="nav-link" data-i18n="nav_about">Про нас</a></li>
+                    <li><a href="services.html" class="nav-link" data-i18n="nav_services">Меню</a></li>
+                    <li><a href="gallery.html" class="nav-link" data-i18n="nav_gallery">Галерея</a></li>
+                    <li><a href="contacts.html" class="nav-link" data-i18n="nav_contacts">Контакти</a></li>
+                </ul>
+            </nav>
+            <div class="header-actions">
+                <div class="lang-switcher">
+                    <button class="lang-btn active" data-lang="uk">UA</button>
+                    <button class="lang-btn" data-lang="ru">RU</button>
+                    <button class="lang-btn" data-lang="en">EN</button>
+                </div>
+                <button class="menu-toggle" id="menuToggle" aria-label="Відчинити меню">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container hero-content">
+                <div class="hero-text-block">
+                    <span class="hero-badge" data-i18n="hero_badge">Жмеринка • вул. Софії Тобілевич, 4а</span>
+                    <h1 class="hero-title" data-i18n="hero_title">Затишна кав’ярня «Мелодія зерен» у Жмеринці</h1>
+                    <p class="hero-subtitle" data-i18n="hero_subtitle">Атмосфера спокою, приємна музика, професійні бариста та вишукана свіжа випічка власного виробництва поруч із привокзальним ринком.</p>
+                    <div class="hero-buttons">
+                        <a href="services.html" class="btn btn-primary" data-i18n="btn_menu">Переглянути асортимент</a>
+                        <a href="contacts.html" class="btn btn-secondary" data-i18n="btn_contacts">Як нас знайти</a>
+                    </div>
+                </div>
+                <div class="hero-image-block">
+                    <div class="hero-image-wrapper">
+                        <div class="hero-fallback-img">
+                            <span>☕ 🥐</span>
+                            <p data-i18n="hero_fallback_text">Свіжа кава та випічка щодня</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="features section-padding">
+            <div class="container">
+                <div class="section-header text-center">
+                    <h2 class="section-title" data-i18n="features_title">Чому обирають «Мелодію зерен»</h2>
+                    <p class="section-subtitle" data-i18n="features_subtitle">Ми створили простір, де кожен день починається з ідеального смаку</p>
+                </div>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">✨</div>
+                        <h3 data-i18n="feat_1_title">Відбірні зерна</h3>
+                        <p data-i18n="feat_1_desc">Широкий вибір кавових напоїв найвищої якості, приготованих професійними бариста.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🥐</div>
+                        <h3 data-i18n="feat_2_title">Домашня випічка</h3>
+                        <p data-i18n="feat_2_desc">Ніжні тістечка, апетитні круасани з начинками, чізкейки, макаруни та фісташковий наполеон.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🍔</div>
+                        <h3 data-i18n="feat_3_title">Ситні перекуси</h3>
+                        <p data-i18n="feat_3_desc">Ситні паніні, соковиті гамбургери, хрусткі багети та апетитні чіабати для вашого задоволення.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🎶</div>
+                        <h3 data-i18n="feat_4_title">Затишна атмосфера</h3>
+                        <p data-i18n="feat_4_desc">Ідеальне місце для ранкової кави, дружніх зустрічей та солодких перерв у центрі Жмеринки.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta-banner section-padding bg-warm">
+            <div class="container text-center">
+                <h2 data-i18n="cta_title">Завітайте до нас на каву</h2>
+                <p data-i18n="cta_subtitle">Ми чекаємо на вас щодня з 08:00 до 20:00 за адресою: вул. Софії Тобілевич, 4а (поруч із ліцеєм №5).</p>
+                <a href="contacts.html" class="btn btn-primary" data-i18n="cta_btn">Контакти та карта</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-content">
+            <div class="footer-col">
+                <a href="index.html" class="logo footer-logo">
+                    <span class="logo-icon">☕</span>
+                    <span class="logo-text">Мелодія зерен</span>
+                </a>
+                <p data-i18n="footer_desc">Затишна сучасна кав’ярня у місті Жмеринка.</p>
+            </div>
+            <div class="footer-col">
+                <h4 data-i18n="footer_nav_title">Навігація</h4>
+                <ul class="footer-links">
+                    <li><a href="index.html" data-i18n="nav_home">Головна</a></li>
+                    <li><a href="about.html" data-i18n="nav_about">Про нас</a></li>
+                    <li><a href="services.html" data-i18n="nav_services">Меню</a></li>
+                    <li><a href="gallery.html" data-i18n="nav_gallery">Галерея</a></li>
+                    <li><a href="contacts.html" data-i18n="nav_contacts">Контакти</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4 data-i18n="footer_contacts_title">Контакти</h4>
+                <p data-i18n="footer_address">вул. Софії Тобілевич, 4а, Жмеринка, Вінницька область</p>
+                <p data-i18n="footer_hours">Графік: Пн-Нд: 08:00 - 20:00</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; Кав’ярня «Мелодія зерен». <span data-i18n="footer_rights">Всі права захищено.</span></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/script.js"></script>
+</body>
+</html>
